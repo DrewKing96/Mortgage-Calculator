@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<title>Mortgage Calculator</title>
+		<script type="text/javascript" src="js/SumofAllFears.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="css/styles.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div class="container ml-1 mr-1 mt-3" id="overall">
+			<div class="row">
+				<div class="col mt-2">
+					<div class="container" id="mortgageCalculator">
+						<div class="row">
+							<div class="col">
+								<label class="mt-1 ml-1 mr-0"><span>Mortgage Amount: </span></label>
+								<label class="mt-1 ml-1 mr-0"><span>Interest Rate (%): </span></label>
+								<label class="mt-1 ml-1 mr-0"><span>Mortgage Period (Years): </span></label>
+							</div>
+							<div class="col ml-0 mr-5">
+								<input type="textbox" name="principle" id="principle" value=''>
+								<input type="textbox" name="interest rate" id="interest_yr" value=''>
+								<input type="textbox" name="length" id="length" value=''>
+							</div>
+						</div>
+						<div><label class="mt-1"><span>Total Cost of Mortgage Loan: </span><div id="totalCost">---</div></label></div>
+						<label class="mt-1"><span>Monthly Payment: </span><div id="monthlyPayment">---</div></label>
+					</div>
+				</div>
+				<div class="col mt-2">
+					<div class="container" id="mortgageCalculator">
+						<label class="mt-1"><span>Monthly Payment: </span><input type="textbox" name="principle" id="principle" value=''></label>
+						<label class="mt-1 ml-1"><span>Interest Rate (%): </span><input type="textbox" name="interest rate" id="interest_yr" value=''></label>
+						<label class="mt-1 ml-1"><span>Mortgage Period (Years): </span><input type="textbox" name="length" id="length" value=''></label>
+						<div><label class="mt-1"><span>Total Cost of Mortgage Loan: </span><div id="totalCost">---</div></label></div>
+						<label class="mt-1"><span>Maximum Loan Amount: </span><div id="totalCost">---</div></label>
+					</div>
+				</div>
+			</div>
+		</div>		
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>
